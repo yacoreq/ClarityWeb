@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #a300cc;
+}
+
+.background {
+    width: 100%;
+    height: 890px;
+    display: block;
+    background-image: url('tlostrony.png');
+}
+
+nav {
+    background-color: #a300cc;
+}
+
+nav a {
+    display: inline-block;
+    width: 6%;
+    padding: 15px 30px 15px 30px !important;
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    font-size: 15px;
+}
+
+nav a:hover {
+    background-color: #9300b8;
+    padding: 15px 30px 15px 30px !important;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #9300b8;
+}
+
+.yacoreq {
+    display: block;
+    width: 1280;
+    height: 720;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
